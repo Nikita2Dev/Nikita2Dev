@@ -1,14 +1,6 @@
-<<<<<<< HEAD
 requests==2.32.3
 beautifulsoup4==4.12.3
 opencv-python-headless
 Pillow
 numpy
-=======
-requests==2.32.3
-beautifulsoup4==4.12.3
-opencv-python-headless
-Pillow
-numpy
->>>>>>> 70e55859922cf5e05bb2691dc9c457d2430746f7
 rembg[cpu]
