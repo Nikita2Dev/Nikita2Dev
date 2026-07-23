@@ -1,67 +1,56 @@
 <div align="center">
-  <img height="150" src="https://user-images.githubusercontent.com/74038190/216654128-ad1c5827-e18e-43a6-974b-3669cbb082b9.gif" />
+
+<!-- hero: monochrome ASCII portrait (types in) beside a neofetch-style info
+     panel. regenerate portrait: python scripts/prep_photo.py <photo> &&
+     python scripts/make_ascii_svg.py ; info panel: python scripts/make_info_card.py -->
+
+<!-- animated contribution graph: real data, boxes reveal cell by cell
+     (regenerated daily by .github/workflows/update-profile-art.yml) -->
+
+<h3><code>mahesh@github ~ $ ./contributions.sh</code></h3>
+
+<img src="./contrib-heatmap.svg?v=8" width="860" alt="Mahesh's GitHub contribution graph — auto-refreshed daily" />
+
+<br>
+<br>
+
+<h3><code>mahesh@github ~ $ whoami</code></h3>
+
+<table width="860"> 
+<tr>
+<td valign="top" width="430"><img src="./avi-ascii.svg?v=8" width="430" alt="Mahesh — ASCII portrait" /></td>
+<td valign="top" width="430"><img src="./info-card.svg?v=4" width="430" alt="Mahesh — experience, stack, highlights" /></td>
+</tr>
+</table>
+
+<br>
+<br>
+
+<h3><code>mahesh@github ~ $ ./links.sh</code></h3>
+
+<p><b>Fullstack Developer · AI Builder · Instructor</b></p>
+
+[![GitHub](https://img.shields.io/badge/GitHub-mahesh2--lab-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahesh2-lab)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-mahesh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/)
+[![Twitter](https://img.shields.io/badge/Twitter-mahesh-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
+[![Instagram](https://img.shields.io/badge/Instagram-mahesh-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/)
+[![Live Terminal](https://img.shields.io/badge/⚡_Live_Terminal-mahesh2--lab.github.io-22d3ee?style=for-the-badge&logo=gnometerminal&logoColor=black)](https://mahesh2-lab.github.io)
+
+<h3><code>mahesh@github ~ $ ./stats.sh</code></h3>
+
+<table align="center" width="860">
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://www.readmecodegen.com/custom-github-card-generator">
+        <img src="https://www.readmecodegen.com/api/github-stats/svg?username=mahesh2-lab&repos=true&followers=true&following=true" alt="Mahesh's GitHub Stats" />
+      </a>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://www.readmecodegen.com/custom-github-card-generator">
+        <img src="https://www.readmecodegen.com/api/github-stats/svg?username=mahesh2-lab&cardType=langs&repos=false&followers=false&following=false" alt="Top Languages" />
+      </a>
+    </td>
+  </tr>
+</table>
+
 </div>
-
-###
-
-<div align="center">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="youtube logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
-</div>
-
-###
-
-
-
-###
-
-<h1 align="center">hey there 👋</h1>
-
-###
-
-<h3 align="left">👩‍💻  About Me</h3>
-
-###
-
-<p>I am </p><h3>Nikita Chandak</h3>
-
-<p align="left">I'm from Amaravati<br><br>- 🔭 I’m studying Engineering</p>
-
-###
-
-<h3 align="left">🛠 Language and tools</h3>
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="c logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" height="40" alt="materialui logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
-</div>
-
-###
-
-<h3 align="left">🔥   My Stats :</h3>
-
-###
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=nikku2004&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
-</div>
-
-###
-
-<img src="https://raw.githubusercontent.com/nikku2004/nikku2004/output/snake.svg" alt="Snake animation" />
-
-###
