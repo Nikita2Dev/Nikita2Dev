@@ -39,25 +39,22 @@ ACCENT = "#22d3ee"
 # ("gap",)                     -> vertical space
 ROWS = [
     ("host",),
-    ("kv", "Now", "Building Caïssa Monitoring Platform"),
-    ("kv", "Prev", "AI Resume Evaluation Platform"),
-    ("kv", "Also", "Full Stack Developer & Backend Engineer"),
-    ("kv", "Edu", "B.Tech CSE, PLITMS Buldhana ('26)"),
+    ("kv", "Now", "Building Web Applications & Projects"),
+    ("kv", "Prev", "Full Stack Web Development"),
+    ("kv", "Also", "Software Engineering Student & Developer"),
+    ("kv", "Edu", "Engineering Student, Amaravati"),
     ("gap",),
     ("sec", "Stack"),
-    ("kv", "Frontend", "React, Next.js, TypeScript, Tailwind"),
-    ("kv", "Backend", "Node.js, Express, FastAPI, Python"),
-    ("kv", "AI / ML", "LangChain, OpenAI, Gemini, Ollama"),
-    ("kv", "Cloud", "Docker, AWS, Linux, Vercel, Render"),
-    ("kv", "Database", "PostgreSQL, MongoDB, Redis, Prisma"),
-    ("kv", "Tools", "Git, Postman, Linux, GitHub Actions"),
+    ("kv", "Frontend", "HTML, CSS, JavaScript, React, Material UI"),
+    ("kv", "Backend", "Node.js, Express, C, MySQL"),
+    ("kv", "Database", "MySQL, MongoDB, PostgreSQL"),
+    ("kv", "Tools", "Git, GitHub, VS Code, Postman"),
     ("gap",),
     ("sec", "Highlights"),
-    ("bul", "AI Infrastructure Monitoring Platform"),
-    ("bul", "Deployment Platform (Vercel Clone)"),
-    ("bul", "DevOps, Observability & Backend Systems"),
+    ("bul", "Web Application Development"),
+    ("bul", "Frontend & UI Design"),
     ("bul", "Open Source & Continuous Learning"),
-    ("bul", "Passionate about System Architecture & AI"),
+    ("bul", "Passionate about Software Engineering"),
 ]
 
 
@@ -89,7 +86,7 @@ parts = [
 for i, dotcol in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
     parts.append(f'<circle cx="{PAD + i*16}" cy="{TITLEBAR_H/2}" r="5" fill="{dotcol}"/>')
 parts.append(f'<text x="{W/2}" y="{TITLEBAR_H/2 + 4}" fill="{MUTED}" font-size="12" '
-             f'text-anchor="middle">mahesh@github: ~$ neofetch</text>')
+             f'text-anchor="middle">nikita@github: ~$ neofetch</text>')
 
 y = TITLEBAR_H + 50
 for i, row in enumerate(ROWS):
@@ -99,7 +96,7 @@ for i, row in enumerate(ROWS):
         continue
     if kind == "host":
         inner = (f'<text x="{KEY_X}" y="{y:.1f}" font-size="24" font-weight="700">'
-                 f'<tspan fill="{GREEN}">mahesh</tspan><tspan fill="{MUTED}">@</tspan>'
+                 f'<tspan fill="{GREEN}">nikita</tspan><tspan fill="{MUTED}">@</tspan>'
                  f'<tspan fill="{ACCENT}">github</tspan></text>'
                  f'<line x1="{KEY_X+168}" y1="{y-8:.1f}" x2="{W-40}" y2="{y-8:.1f}" '
                  f'stroke="{FRAME}" stroke-opacity="0.8"/>')

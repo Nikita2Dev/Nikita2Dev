@@ -7,7 +7,7 @@ import html
 from datetime import datetime
 
 # GitHub User and Authentication
-USER = sys.argv[1] if len(sys.argv) > 1 else "mahesh2-lab"
+USER = sys.argv[1] if len(sys.argv) > 1 else "Nikita2Dev"
 TOKEN = os.environ.get("GH_TOKEN")
 
 # Paths
@@ -21,38 +21,38 @@ TRANSPARENT_IMAGE = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAA
 
 # Default dummy fallback data for local / unauthenticated generation
 DUMMY_DATA = {
-    "name": "Mahesh",
-    "username": "mahesh2-lab",
-    "bio_line1": "Full Stack Developer & Backend Engineer",
-    "bio_line2": "Building Caïssa Monitoring Platform",
-    "company": "Caïssa",
-    "location": "Buldhana, India",
-    "website": "mahesh2-lab.github.io",
-    "joined_date": "Jul 2025",
-    "followers": "42",
-    "following": "28",
-    "stars": "128",
+    "name": "Nikita Chandak",
+    "username": "Nikita2Dev",
+    "bio_line1": "Engineering Student & Developer",
+    "bio_line2": "Building Fullstack Projects & Web Apps",
+    "company": "Amaravati",
+    "location": "Amaravati, India",
+    "website": "Nikita2Dev.github.io",
+    "joined_date": "Apr 2024",
+    "followers": "15",
+    "following": "10",
+    "stars": "25",
     "org_avatar1": TRANSPARENT_IMAGE,
     "org_avatar2": TRANSPARENT_IMAGE,
     "org_avatar3": TRANSPARENT_IMAGE,
-    "views": "1,250",
-    "commits": "1450",
-    "prs": "32",
-    "issues": "18",
-    "reviews": "5",
-    "rank": "A+",
-    "rank_percentile": "1.0",
-    "streak_current": "12",
-    "streak_longest": "24",
-    "repo1_name": "caissa-monitoring",
-    "repo1_desc_line1": "AI Infrastructure Monitoring Platform",
-    "repo1_stars": "84",
-    "repo1_forks": "12",
-    "repo2_name": "vercel-clone",
-    "repo2_desc_line1": "Deployment Platform with real-time logs",
-    "repo2_stars": "44",
-    "repo2_forks": "6",
-    "total_year_contributions": "1,532"
+    "views": "500",
+    "commits": "350",
+    "prs": "10",
+    "issues": "5",
+    "reviews": "2",
+    "rank": "A",
+    "rank_percentile": "5.0",
+    "streak_current": "5",
+    "streak_longest": "14",
+    "repo1_name": "Nikita2Dev",
+    "repo1_desc_line1": "GitHub Profile README",
+    "repo1_stars": "10",
+    "repo1_forks": "2",
+    "repo2_name": "projects",
+    "repo2_desc_line1": "Web Development Applications",
+    "repo2_stars": "5",
+    "repo2_forks": "1",
+    "total_year_contributions": "400"
 }
 
 

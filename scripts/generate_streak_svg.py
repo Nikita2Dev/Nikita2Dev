@@ -2,7 +2,7 @@
 """Generate an animated GitHub-streak SVG with a terminal UI (Mac-style)."""
 import sys, json, os, datetime, urllib.request
 
-USER = sys.argv[1] if len(sys.argv) > 1 else "mahesh2-lab"
+USER = sys.argv[1] if len(sys.argv) > 1 else "Nikita2Dev"
 OUT  = sys.argv[2] if len(sys.argv) > 2 else "contrib-heatmap.svg"
 
 def get_data(user):
@@ -144,7 +144,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
 <circle cx="{PAD}" cy="{TITLEBAR_H/2}" r="5" fill="#ff5f56"/>
 <circle cx="{PAD+16}" cy="{TITLEBAR_H/2}" r="5" fill="#ffbd2e"/>
 <circle cx="{PAD+32}" cy="{TITLEBAR_H/2}" r="5" fill="#27c93f"/>
-<text x="{W/2}" y="{TITLEBAR_H/2 + 4}" fill="{GRAY}" font-size="12" text-anchor="middle">mahesh@github: ~/contributions --graph</text>
+<text x="{W/2}" y="{TITLEBAR_H/2 + 4}" fill="{GRAY}" font-size="12" text-anchor="middle">nikita@github: ~/contributions --graph</text>
 {''.join(labels)}
 {''.join(rects)}
 </svg>'''

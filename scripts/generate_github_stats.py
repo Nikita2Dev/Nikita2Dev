@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import sys, json, os, urllib.request
 
-USER = sys.argv[1] if len(sys.argv) > 1 else "mahesh2-lab"
+USER = sys.argv[1] if len(sys.argv) > 1 else "Nikita2Dev"
 TOKEN = os.environ.get("GH_TOKEN")
 
 # Fallback dummy data if no token is provided for local generation
